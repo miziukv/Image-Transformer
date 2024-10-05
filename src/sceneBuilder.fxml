@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="372.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miziukv.ImageController">
+   <HBox prefHeight="27.0" prefWidth="600.0">
+      <Button mnemonicParsing="false" onAction="#open" text="Open" />
+      <Button mnemonicParsing="false" onAction="#save" text="Save" />
+   </HBox>
+   <ImageView fx:id="imageView" fitHeight="245.0" fitWidth="270.0" pickOnBounds="true" preserveRatio="true" />
+   <HBox prefHeight="25.0" prefWidth="373.0">
+      <Button mnemonicParsing="false" onAction="#grayscale" text="Grayscale" />
+      <Button mnemonicParsing="false" onAction="#invert" text="Invert" />
+      <Button mnemonicParsing="false" onAction="#brighten" text="Brighten" />
+      <Button mnemonicParsing="false" onAction="#darken" text="Darken" />
+      <Button mnemonicParsing="false" onAction="#desaturate" text="Desaturate" />
+      <Button mnemonicParsing="false" onAction="#saturate" prefHeight="25.0" prefWidth="66.0" text="Saturate" />
+   </HBox>
+   <HBox prefHeight="100.0" prefWidth="200.0">
+      <Button mnemonicParsing="false" onAction="#red" prefHeight="25.0" prefWidth="41.0" text="Red" />
+      <Button mnemonicParsing="false" onAction="#redGray" prefHeight="25.0" prefWidth="71.0" text="Red-Gray" />
+      <Button mnemonicParsing="false" onAction="#blue" text="Blue" />
+      <Button mnemonicParsing="false" onAction="#mirror" prefHeight="25.0" prefWidth="54.0" text="Mirror" />
+      <Button mnemonicParsing="false" onAction="#widen" prefHeight="25.0" prefWidth="53.0" text="Widen" />
+   </HBox>
+</VBox>
